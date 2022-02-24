@@ -9,6 +9,7 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
     width: 100vw;
+    font-family: 'Raleway', sans-serif;
 }
 .part1 {
     
@@ -593,7 +594,7 @@ body {
 
 .part5card1Wrapper {
     width: 702px;
-   margin: auto;
+     margin-left: 356px;
     display: flex;
     justify-content: space-between;
     
@@ -639,10 +640,11 @@ body {
 .part6card1Wrapper {
     width: 708px;
     height: 439px;
-    margin-left: 438px;
+    margin-left: 426px;
     display: flex;
     justify-content: space-between;
     display: flex;
+   
     
 }
 
@@ -717,59 +719,60 @@ body {
     width: 152px;
     height: 152px;
     position: absolute;
-    top: 274.5px;
-    right: 716px;
+    top: 272.5px;
+    /* right: 716px; */
+    left: 561px;
 }
 
 
 .ellipse {
     position: absolute;
     top: 331px;
-    right: 779.18px;
+    left: 619px;
 }
 
 .line5 {
     position: absolute;
     top: 356.54px;
-    right: 770px;
+    left: 641.81px
 }
 .polygon2 {
     width: 152px;
     height: 152px;
     position: absolute;
-    top: 274.5px;
-    right: 571px;
+    top: 272.5px;
+    left: 704px;
 }
 
 .pencil {
     position: absolute;
     top: 327.5px;
-    right: 626px;
+    left: 759px;
 }
 .polygon3 {
     width: 152px;
     height: 152px;
     position: absolute;
-    bottom: 274px;
-    right: 648px;
+    bottom: 272px;
+    left: 628px;
 }
 
 .webLogo {
     position: absolute;
     bottom: 316px;
-    right: 709px;
+    left: 677px;
 }
 .polygon4 {
     width: 152px;
     height: 152px;
     position: absolute;
     bottom: 274px;
-    right: 496px;
+    left: 780px;
 }
 .fastLogo {
     position: absolute;
     bottom: 316px;
-    right: 549px;
+    left: 820px;
 }
 
 .part7Container {
