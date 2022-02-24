@@ -1,0 +1,969 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100vw;
+}
+.part1 {
+    
+    height: 779px;
+    background: linear-gradient(90.19deg, #001435 0.15%, #023384 98.45%);
+    position: relative;
+}
+
+.matrixLogo {
+    position: absolute;
+    top: 19px;
+    left: 136px;
+}
+
+.matrixLogo img {
+    width: 102px;
+    height: 94px;
+}
+.navContainer {
+    position: relative;
+    top: 40px;
+    left: 730px;
+    width: 589px;
+    height: 48px;
+    display: flex;
+    /* border: 1px solid white; */
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+     
+}
+
+.aboutUsContainer, .servicesContainer, .programsContainer {
+    color: white;
+    
+}
+.homeContainer {
+    color: #14BBEA;
+}
+.contactUsContainer {
+    width: 127px;
+    padding: 14px;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 8px;
+    background-image: linear-gradient(90deg, #14BBEA 0%, #009DC9 100%);
+    text-align: center;
+}   
+
+.quotePart1 {
+    width:fit-content;
+    position: relative;
+    left: 116px;
+    top: 267px;
+    font-family: Railway;
+}
+.title1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #14BBEA;
+}
+.title2 {
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+.innovation {
+    color: #F0AB00;
+}
+
+.part2 {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding-top: 78px;
+    background-color: #001435;
+
+}
+
+.aboutUs {
+    
+    font-size: 17px;
+    margin: auto;
+    color: #FFFFFF
+}
+.companies {
+    font-size: 38px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+
+.companies span {
+    color: #14BBEA;;
+}
+
+.vision {
+    width: 1043px;
+    margin: auto;
+    font-size: 16px;
+    color: #CCCCCC;
+    margin-bottom: 80px;
+}
+
+.principles {
+    font-size: 30px;
+    color: #F8F8F8;
+    margin-bottom: 104px;
+}
+
+.businessPrinciples {
+   width: 63%;
+    margin: auto;
+    height: 386px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ .principle1Container, .principle3Container {
+     background-color: #FFFFFF;
+     padding-top: 50px;
+     width: 278px;
+     border-radius: 20px;
+ }
+ .principle2Container {
+    background-color: #000000;
+    padding-top: 50px;
+    width: 278px;
+    border-radius: 20px;
+ }
+ .puzzleLogo, .plantLogo{
+     margin-bottom: 20px;
+ }
+ .balanceLogo{
+    margin-bottom: 27px;
+}
+
+ .principle1, .principle3 {
+     font-size: 18px;
+     color: #000000;
+     margin-bottom: 15px;
+ }
+ .principle2{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+ .principle1Desc, .principle3Desc {
+     font-size: 15px;
+     color: #000000;
+     margin-left: 30px;
+     margin-right: 30px;
+ }
+ .principle2Desc{
+    font-size: 15px;
+    color: #CCCCCC;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.ourServices {
+    margin: 112px auto 5px;
+    font-size: 17px;
+  
+    color: #FFFFFF
+}
+.servicesTitle {
+    font-size: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.servicesTitle span {
+    color: #14BBEA;;
+}
+
+.servicesDesc {
+    width: 898px;
+    margin: 0 auto 80px;
+    font-size: 16px;
+    color: #CCCCCC;
+}
+
+.strategicContainer {
+    display: flex;
+    width: 65%;
+    height: 424px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.stratergyTitle {
+    height: 330px;
+    width: 232px;
+    align-self: flex-start;
+    font-size: 30px;
+    font-weight: bold;
+    color:  #FFFFFF;
+    text-align: left;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color:  #F0AB00;
+    display: inline-block;
+}
+
+.stratergyContainer1 {
+    width: 248px;
+    height: 330px;
+    align-self: flex-end;
+    background-color: #000000;
+    /* opacity: 0.5;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25); */
+    border-radius: 19px;
+}
+.notesLogo {
+    margin-top: 71px;
+    margin-left: -65px;
+}
+
+.stratergyContainer1Header {
+    margin: 23px 38px 10px 46px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+.stratergyContainer1Desc {
+    margin-left: 46px;
+    margin-right: 28px;
+    font-size: 11px;
+    color: #CCCCCC;
+    text-align: left;
+}
+
+.containerFor2n3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lookupLogo {
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+.stratergyContainer2 {
+    width: 357px;
+    height: 196px;
+    background-color: #000000;
+    /* opacity: 0.5;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25); */
+    border-radius: 19px;
+}
+
+.stratergyContainer2Header {
+    margin-left: 39px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.stratergyContainer2Desc {
+    margin-left: 39px;
+    margin-right: 12px;
+    font-size: 11px;
+    color: #CCCCCC;
+    text-align: left;
+}
+
+.stratergyContainer3 {
+    width: 357px;
+    height: 196px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    position: relative;
+}
+.graphLogo1 {
+    position: absolute;
+   top: 34px;
+   left: 45px;
+}
+.graphLogo2 {
+   position: absolute;
+   top: 45.5px;
+   left: 35px;
+}
+.graphLogo3 {
+    position: absolute;
+    top: 58px;
+    left: 33px;
+ }
+
+.stratergyContainer3Header {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.stratergyContainer4Wrapper {
+    width: 65%;
+    height: 330px;
+    display: flex;
+    margin: 21px auto;
+    justify-content: space-between;
+}
+
+.stratergyContainer4 {
+    background-color: #FFFFFF;
+    border-radius: 19px;
+    width: 248px;
+    height: 100%;
+}
+
+.moneyLogo {
+    width: 58px;
+    height: 57px;
+    margin-top: 77px;
+    margin-left: 46px;
+}
+
+.stratergyContainer4Header {
+    margin: 19px 38px 10px 46px;
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    font-weight: bold;
+}
+
+.stratergyContainer4Desc {
+    color: #d3c3c3;
+    font-size: 12px;
+    margin-left: 46px;
+    margin-right: 28px;
+    text-align: left;
+}
+
+.stratergyContainer5 {
+    background-color: #FFFFFF;
+    width: 357px;
+    height: 196px;
+    align-self: flex-start;
+    border-radius: 19px;
+}
+
+.storeLogo {
+    width: 56px;
+    height: 56px;
+    margin-top: 25px;
+    margin-left: 39px;
+}
+.stratergyContainer5Header {
+    margin: 12px 30px 10px 39px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+}
+.stratergyContainer5Desc {
+    margin-left: 39px;
+    margin-right: 12px;
+    font-size: 12px;
+    color: #CCCCCC;
+    text-align: left;
+}
+.stratergyContainer6 {
+    background-color: #000000;
+    border-radius: 19px;
+    width: 248px;
+    height: 100%;
+}
+.messageLogo {
+    width: 69px;
+    height: 63px;
+    
+    margin-top: 70px;
+    margin-left: 46px;
+}
+
+.stratergyContainer6Header {
+    margin: 12px 30px 10px 39px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: left;
+}
+.stratergyContainer6Desc {
+    margin-left: 39px;
+    margin-right: 12px;
+    font-size: 12px;
+    color: #CCCCCC;
+    text-align: left;
+}
+.corporateFinanceContainer {
+    position: relative;
+    height: 625px;
+    width: 100%;
+    
+}
+
+.financeTitle {
+    position: absolute;
+    right: 247px;
+    top: 80px;
+    font-size: 30px;
+    text-align: right;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 232px;
+    text-align: right;
+}
+
+.dot2 {
+    width: 10px;
+    height: 10px;
+    background-color:  #F0AB00;
+    display: inline-block;
+}
+
+.pointContainer {
+    width: 554px;
+    position: absolute;
+    top: 177px;
+    left: 235px;
+    
+}
+
+.point1 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.tickLogoContainer {
+    width: 28px;
+    height: 28px;
+    position: relative;
+}
+
+.point1Desc {
+    font-size: 16px;
+    color: #CCCCCC;
+    width: 510px;
+    text-align: left;
+    position: relative;
+    top: 6px;
+   
+}
+.circleLogo {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #F0AB00;
+    border-radius: 50%;
+ 
+}
+
+.tickLogo {
+   position: absolute;
+   top: 0px;
+   left: 6px;
+}
+
+.moneyStackLogo {
+   width: 245px;
+   height: 245px;
+   position: relative;
+   top: 380px;
+   left: 950px;
+ 
+}
+
+.capitalContainer {
+    height: 683px;
+    width: 100%;
+    position: relative;
+}
+
+.capitalHeader {
+    width: 232px;
+    height: 101px;
+    position: absolute;
+    top: 117px;
+    left: 247px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: left;
+}
+.dot3 {
+    width: 10px;
+    height: 10px;
+    background-color:  #F0AB00;
+    display: inline-block;
+}
+.unionLogo {
+    width: 389px;
+    height: 326.26px;
+    position: absolute;
+    top: 356px;
+    left: 363px;
+
+}
+.capitalPointContainer {
+    width: 380px;
+    position: absolute;
+    top: 150px;
+    left: 834px;
+    
+}
+.capitalPoint2 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 33px;
+    justify-content: space-between;
+}
+.capitalTickLogoContainer {
+    width: 28px;
+    height: 28px;
+    position: relative;
+}
+
+.capitalPoint1Desc {
+    position: relative;
+    top: 6px;
+    height: 19px;
+    font-size: 16px;
+    color: #CCCCCC;
+    width: 337px;
+    text-align: left;
+    
+   
+}
+.capitalCircleLogo {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #F0AB00;
+    border-radius: 50%;
+ 
+}
+
+.capitalTickLogo {
+   position: absolute;
+   top: 0px;
+   left: 6px;
+}
+.part5Container {
+    position: relative;
+    width: 100%;
+}
+
+.part5Title {
+    margin: 143.5px auto 8px;
+    font-size: 17px;
+    color: #FFFFFF
+}
+.part5Header {
+    font-size: 38px;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+
+.part5Header span {
+    color: #14BBEA;;
+}
+
+.part5Desc {
+    width: 898px;
+    margin: 0 auto 107px;
+    font-size: 16px;
+    color: #CCCCCC;
+}
+
+.part5CardContainer {
+    width: 100%;
+    position: relative;
+ 
+}
+
+.part5card1Wrapper {
+    width: 702px;
+   margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.part5Card1 {
+    background-color: #FFFFFF;
+    width: 278px;
+    height: 386px;
+    border-radius: 19px;
+
+}
+.part5Card1Title {
+    margin: 52.5px 68px 41px 32px;
+    font-size: 34px;
+    font-weight: 800;
+    color: #000000;
+    text-align: left;
+}
+
+.part5Card1Desc, .part5Card2Desc { 
+    margin: 0px 32px auto;
+    color: #A0A0A0;
+    font-size: 15px;
+    text-align: left;
+}
+
+.part5Card2 {
+    background-color: #000000;
+    width: 278px;
+    height: 386px;
+    border-radius: 19px;
+
+}
+.part5Card2Title {
+    margin: 53.5px 61px 41px 32px;
+    font-size: 34px;
+    font-weight: 800;
+    color:#FFFFFF;
+    text-align: left;
+}
+
+.part6card1Wrapper {
+    width: 708px;
+    height: 439px;
+    margin-left: 438px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+.part6Card1 {
+    background-color:#000000;
+    width: 278px;
+    height: 386px;
+    align-self: flex-end;
+   
+
+}
+.part6Card1Title {
+    margin: 122.5px 18px 41.5px 33px;
+    font-size: 34px;
+    font-weight: 800;
+    color:#FFFFFF;
+    text-align: left;
+}
+
+.part6Card1Desc, .part6Card2Desc { 
+    margin: 0px 32px auto;
+    color: #A0A0A0;
+    font-size: 15px;
+    text-align: left;
+}
+
+.part6Card2 {
+    background-color:#FFFFFF;
+    width: 278px;
+    height: 386px;
+    border-radius: 19px;
+    align-self: flex-end;
+    position: relative;
+}
+
+.part6Card2Title {
+    margin: 123px 67px 41px 33px;
+    font-size: 34px;
+    font-weight: 800;
+    color:#000000;
+    text-align: left;
+}
+
+.polygonContainer {
+    width: 388px;
+    height: 280.5px;
+    position: absolute;
+    top: 272.5px;
+    left: 561px;
+    border: 1px solid wheat;
+} 
+
+.firstTwo {
+    width: 312px;
+    height: 125.5px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    
+}
+
+ .lastTwo {
+    width: 312px;
+    height: 152px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 68px;
+    border: 1px solid yellow;
+}
+
+.polygon1 {
+    width: 152px;
+    height: 152px;
+    position: absolute;
+    top: 274.5px;
+    right: 716px;
+}
+
+
+.ellipse {
+    position: absolute;
+    top: 331px;
+    right: 779.18px;
+}
+
+.line5 {
+    position: absolute;
+    top: 356.54px;
+    right: 770px;
+}
+.polygon2 {
+    width: 152px;
+    height: 152px;
+    position: absolute;
+    top: 274.5px;
+    right: 571px;
+}
+
+.pencil {
+    position: absolute;
+    top: 327.5px;
+    right: 626px;
+}
+.polygon3 {
+    width: 152px;
+    height: 152px;
+    position: absolute;
+    bottom: 274px;
+    right: 648px;
+}
+
+.webLogo {
+    position: absolute;
+    bottom: 316px;
+    right: 709px;
+}
+.polygon4 {
+    width: 152px;
+    height: 152px;
+    position: absolute;
+    bottom: 274px;
+    right: 496px;
+}
+.fastLogo {
+    position: absolute;
+    bottom: 316px;
+    right: 549px;
+}
+
+.part7Container {
+    width: 100%;
+}
+
+.programsTitle {
+    margin-top: 114px;
+    font-size: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ourProgramsContainer {
+    margin-top: 8px;
+    font-size: 43px;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+.ourProgramsContainer span {
+    color: #1FB9EC;
+}
+
+.part7CardContainer {
+    width: 637px;
+    margin-left: 207px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.part7Card1, .part8Card2 {
+    width: 248px;
+    height: 330px;
+    border-radius: 19px;
+    background-color: #000000;
+}
+.rect1, .rect4 {
+    width: 77px;
+    height: 77px;
+    background-color: #FFFFFF;
+    margin: 63px 120px 104px 51px;
+}
+.part7Card1Desc, .part8Card2Desc {
+    margin-left: 46px;
+    margin-right: 38px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: left;
+}
+.part7Card2, .part8Card1, .part8Card3 {
+    width: 357px;
+    height: 196px;
+    border-radius: 19px;
+    background-color:#FFFFFF;
+    align-self: flex-end;
+}
+.rect2, .rect3, .rect5 {
+    width: 57px;
+    height: 46px;
+    background-color: #C4C4C4;
+    margin: 34px 261px 46px 39px;
+}
+.part7Card2Desc, .part8Card1Desc, .part8Card3Desc  {
+    margin-left: 39px;
+    font-size: 20px;
+    color:#000000;
+    text-align: left;
+}
+.part8CardContainer {
+    width: 1026px;
+    margin-left: 207px;
+    margin-top: 47px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#diff1 {
+    align-self: flex-start;
+}
+
+.part9Container {
+    width: 1145px;
+    height: 348px;
+    margin: 166px auto 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    border-radius: 19px;
+}
+
+.part9Card1 {
+  width: 336px;
+  margin-top: 110px;
+  margin-left: 92px;
+  text-align: left;
+}
+
+.part9Card1Title1 {
+    font-size: 24px;
+    color:  #FFFFFF;
+    margin-bottom: 16px;
+    
+}
+
+.part9Card1Title2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 9px;
+    color: #FFFFFF;
+}
+
+.part9Card1Desc {
+    font-size: 16px;
+    color: #CCCCCC;
+}
+
+.formContainer {
+    width: 384px;
+    height: 313px;
+    align-self: center;
+    margin-right: 69px;
+}
+
+.name, .email, .comments {
+    width: 384px;
+    height: 48px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: rgba(180, 180, 180, 0.8);
+    padding-left: 16px;
+    border-radius: 8px;
+}
+#message {
+    height: 113px;
+    margin-bottom: 18px;
+    padding-bottom: 77px;
+    padding-top: 14px;
+}
+
+
+
+.sendButton {
+    width: 100%;
+    padding: 16px 171px;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #14BBEA 0%, #019FCB 100%);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.footerContainer {
+    width: 100%;
+    height: 81px;
+    margin-top: 120px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    align-self: center;
+    margin-left: 122px;
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+
+.footerLogos {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 34px;
+    position: relative;
+}
+.fb2 {
+    position: absolute;
+    top: 4.56px;
+    left: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
